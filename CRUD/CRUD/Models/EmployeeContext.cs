@@ -13,5 +13,6 @@ namespace CRUD.Models
         {
         }
         public DbSet<Employee> employees { get; set; }
+        public DbSet<Products> Products { get; set; }
     }
 }
